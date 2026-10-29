@@ -1,0 +1,16 @@
+node_modules/
+.npm-cache/
+.test-build/
+.obsidian-dev-profile/
+scripts/.data-cache/
+amap-keys.json
+**/amap-keys*.json
+.env
+.env.*
+dev-vault/
+dev-media/
+assets/geo/
+map-packs/**/*.geojson
+map-packs/**/*.json
+*.log
+.DS_Store

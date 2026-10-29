@@ -1,0 +1,31 @@
+{
+  "name": "obsidian-travel-map",
+  "version": "0.1.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Travel Map Contributors",
+  "description": "Obsidian travel map plugin: places, journals, trip-tree timeline, offline map with user-provided map packs.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "tsx --test tests/*.test.ts",
+    "gen:data": "node scripts/generate-data.mts",
+    "deploy:dev": "node scripts/deploy-dev.mjs"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^24.0.0",
+    "builtin-modules": "^3.3.0",
+    "china-division": "^2.7.0",
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.14.4",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}

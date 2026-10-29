@@ -1,0 +1,9 @@
+{
+  "id": "travel-map",
+  "name": "旅游地图",
+  "version": "0.1.1",
+  "minAppVersion": "1.5.0",
+  "description": "本地优先的旅行地图：搜索保存地点、写旅行日志、用行程树回顾；离线地图需自备地图包。",
+  "author": "Travel Map Contributors",
+  "isDesktopOnly": true
+}
