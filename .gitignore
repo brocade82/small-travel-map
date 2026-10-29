@@ -14,3 +14,4 @@ map-packs/**/*.geojson
 map-packs/**/*.json
 *.log
 .DS_Store
+**/*.geojson
